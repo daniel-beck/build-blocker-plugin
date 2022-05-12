@@ -20,5 +20,6 @@ public class BuildBlockerConfiguration extends GlobalConfiguration {
     @DataBoundSetter
     public void setBlockScheduling(boolean blockScheduling) {
         this.blockScheduling = blockScheduling;
+        save();
     }
 }
