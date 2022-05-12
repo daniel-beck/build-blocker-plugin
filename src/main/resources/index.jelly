@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    Blocks scheduling of new builds.
+</div>
